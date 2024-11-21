@@ -3,7 +3,7 @@
     <xsl:template match="/">
         <html>
             <body>
-                <script>alert('XSLT Injection!')</script>
+                <script>alert(document.domain)</script>
             </body>
         </html>
     </xsl:template>
