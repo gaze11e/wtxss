@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  <script type="text/javascript">
-    alert(document.cookie);
-  </script>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <a xlink:href="javascript:alert(document.domain)">
+    <text x="20" y="20">Click me</text>
+  </a>
 </svg>
